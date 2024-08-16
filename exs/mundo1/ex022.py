@@ -1,0 +1,5 @@
+nome=input('digita seu nome completo ai rei ')
+print('seu nome com todas as letras maiusculas é {}'.format(nome.upper()))
+print('seu nome com todas as letras miniusculas é {}'.format(nome.lower()))
+print('seu nome tem ao total {} caracateres'.format(len(''.join(nome.split()))))
+print('seu primeiro nome tem o total de {} letras'.format(len(nome.split()[0])))
