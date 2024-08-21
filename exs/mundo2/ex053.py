@@ -1,4 +1,4 @@
-frase = str(input('digite uma frase para eu verificar se é um palindromo(digite sem acentos): '))
+frase = str(input('digite uma frase para eu verificar se é um palindromo(digite sem acentos): ')).strip()
 teste = frase.replace(' ', '')
 teste1 = ''
 for c in range (len(teste)-1, -1, -1):
